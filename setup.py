@@ -15,7 +15,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/rgulli/zotero2wordcloud/",
     packages=find_packages(),
-    install_requires=['wordcloud'],
+    install_requires=['wordcloud', 'pyzotero'],
     classifiers=[
         "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
