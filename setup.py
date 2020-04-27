@@ -7,7 +7,7 @@ requirements = ["ipython>=6", "nbformat>=4", "nbconvert>=5", "requests>=2"]
 
 setup(
     name="zotero2wordcloud",
-    version="0.0.1",
+    version="v0.0.1",
     author="Roberto A. Gulli",
     author_email="robertoagulli@gmail.com",
     description="A package to create a word cloud from a collection of papers in a user's Zotero collection.",
