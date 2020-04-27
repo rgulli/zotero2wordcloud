@@ -1,7 +1,7 @@
 # zotero2wordcloud
 Create a word cloud based on a specified field of a collection of papers from Zotero. 
 
-## Installation instructions
+## Installation
 1. Open a terminal window, and create a new virtual environment called `zotero2wordcloud`
   * Using [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html): `conda create --name zotero2wordcloud`
   * Using python: `python3.7 -m venv my_env`
@@ -9,14 +9,14 @@ Create a word cloud based on a specified field of a collection of papers from Zo
   * `conda activate zotero2wordcloud` or `source zotero2wordcloud/bin/activate`
   * Note always work in this virtual environment when working on this project, and deactivate the environment when you're done. 
 3. Navigate to the folder where you'd like to install this package
-  * `cd <yourpath/GitHub/`
+  * `cd <yourpath>/GitHub/`
   * `mkdir zotero2wordcloud`
   * `cd zotero2wordcloud`
 4. Install
 * Using pip: `pip install zotero2wordcloud`
 * Using Anaconda: `conda config --add channels conda-forge && conda install zotero2wordcloud`
   
-## Usage instructions:
+## Use
 Before starting, you'll need three pieces of information from Zotery: library ID, library type, and API key. 
 
 * Your personal library ID is available [from Zotero](https://www.zotero.org/settings/keys). 
@@ -24,7 +24,7 @@ Before starting, you'll need three pieces of information from Zotery: library ID
 * You will likely need to [create a new API key](https://www.zotero.org/settings/keys/new)
 * If you're having trouble getting access to your Zotero library, check out example #1 in the `/examples` folder. Also see [Pyzotero documentation](https://pyzotero.readthedocs.io/en/latest/) for more information.
 
-### Using terminal:
+### In terminal:
 * `from zotero2wordcloud.zoterto2wordcloud import zotero2wordcloud`
 
 ### Using Anaconda
