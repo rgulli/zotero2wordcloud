@@ -195,13 +195,6 @@ for item in zot.everything(zot.items()):
     if 'collections' in item['data'] and include_collection in item['data']['collections']:
         #print("Found an item from the collection!")
         include_papers.append(item)
-        
-if len(concatenated_abstracts)>300:
-    print(f"Concatenated abstracts: \n {concatenated_abstracts[0:300]}")
-    print('...')
-    print(f"{concatenated_abstracts[-301:-1]}")
-else:
-    print(f"Concatenated abstracts: \n {concatenated_abstracts}")
 
 
 # ## Concatenate paper abstracts together and save as text file
@@ -214,8 +207,12 @@ concatenated_abstracts = str()
 for item in include_papers:
     concatenated_abstracts = concatenated_abstracts+' '+item['data']['abstractNote']
     
-print(f"Concatenated abstracts: \n {concatenated_abstracts[0-300]+'...'}")
-
+if len(concatenated_abstracts)>300:
+    print(f"Concatenated abstracts: \n {concatenated_abstracts[0:300]}")
+    print('...')
+    print(f"{concatenated_abstracts[-301:-1]}")
+else:
+    print(f"Concatenated abstracts: \n {concatenated_abstracts}")
 
 # In[7]:
 
