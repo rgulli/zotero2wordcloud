@@ -7,13 +7,13 @@ requirements = ["ipython>=6", "nbformat>=4", "nbconvert>=5", "requests>=2"]
 
 setup(
     name="zotero2wordcloud",
-    version="v0.0.1",
+    version="v0.0.2",
     author="Roberto A. Gulli",
     author_email="robertoagulli@gmail.com",
     description="A package to create a word cloud from a collection of papers in a user's Zotero collection.",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://github.com/rgulli/zotero2wordcloud/archive/v0.0.1.tar.gz",
+    url="https://github.com/rgulli/zotero2wordcloud/archive/v0.0.2.tar.gz",
     packages=find_packages(),
     install_requires=['wordcloud', 'pyzotero','anytree'],
     classifiers=[
