@@ -4,7 +4,7 @@ Create a word cloud based on a specified field of a collection of papers from Zo
 ## Installation
 1. Open a terminal window, and create a new virtual environment called `zotero2wordcloud`
   * Using [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html): `conda create --name zotero2wordcloud`
-  * Using python: `python3.7 -m venv my_env`
+  * Using python: `python3.7 -m venv zotero2wordcloud`
 2. Activate the new environment
   * `conda activate zotero2wordcloud` or `source zotero2wordcloud/bin/activate`
   * Note always work in this virtual environment when working on this project, and deactivate the environment when you're done. 
