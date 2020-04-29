@@ -14,7 +14,6 @@ Create a word cloud based on a specified field of a collection of papers from Zo
   * `cd zotero2wordcloud`
 4. Install
 * Using pip: `pip install zotero2wordcloud`
-* Using Anaconda: `conda config --add channels conda-forge && conda install zotero2wordcloud`
   
 ## Use
 Before starting, you'll need three pieces of information from Zotery: library ID, library type, and API key. 
